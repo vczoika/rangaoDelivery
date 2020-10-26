@@ -21,10 +21,10 @@ body {
 }
 
 main {
-    background-color: burlywood;
     border: 1px solid black;
     height: 500px;
-    padding: 24px;
+    background-color: #f9f9f9;
+    padding: 12px;
 }
 
 footer {
