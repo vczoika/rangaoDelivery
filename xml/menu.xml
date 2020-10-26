@@ -1,33 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<foodMenu title="Menu">
-    <food>
-        <name>Coxa de Frango de Avestruz Russo Albino</name>
-        <info>Aproximadamente 5kg de Coxa de Frango bem temperada, para todos os seus amigos sentirem inveja do seu coxão!</info>
-        <price>R$39,99</price>
-    </food>
-    <food>
-        <name>X-Tudo Mil Grau</name>
-        <info>O melhor podrão de SP! Vem com tudo que achamos no chão do nosso food truck! Perna de barata é bonus.</info>
-        <price>R$9,99</price>
-    </food>
-    <food>
-        <name>Carne de Mamute Albino | gourmet</name>
-        <info>A melhor carne da galaxia! Agora em SP extremamente temperada com alcafrão do Himalaia e pelo de gato do artico siberiano!</info>
-        <price>R$64,99</price>
-    </food>
-    <food>
-        <name>Hot-Dog da Tia Juana</name>
-        <info>Hot-dog COMPLETO com 4 salsichas e purê de batata da Tia Juana. O melhor de SP!</info>
-        <price>R$14,99</price>
-    </food>
-    <food>
-        <name>Churrasquinho de Gato</name>
-        <info>Espetinho de Carne de Churrasco. Será que é de boi mesmo, ou é de gato? </info>
-        <price>R$5,00</price>
-    </food>
-    <food>
-        <name>Mamão com Wasabi | vegan</name>
-        <info>Favorito do Kanazawa. Com Wasabi verdadeiro, direto do Japão.</info>
-        <price>R$19,99</price>
-    </food>
-</foodMenu>
+<!-- <menu>
+	<opcao id="1"> Home </opcao>
+	<opcao id="2"> Produtos </opcao>
+	<opcao id="3"> Contato </opcao>
+	<opcao id="4"> Localização </opcao>
+	<opcao id="5"> Notícias </opcao>
+</menu> -->
+<menu>
+    <link id="index.html">Produtos</link>
+    <link id="carrinho.html">Carrinho</link>
+</menu>
