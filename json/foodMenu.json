@@ -1,36 +1,46 @@
 {
-    "foodMenu": {
-      "food": [
-        {
-          "name": "Coxa de Frango de Avestruz Russo Albino",
-          "info": "Aproximadamente 5kg de Coxa de Frango bem temperada, para todos os seus amigos sentirem inveja do seu coxão!",
-          "price": "R$39,99"
-        },
-        {
-          "name": "X-Tudo Mil Grau",
-          "info": "O melhor podrão de SP! Vem com tudo que achamos no chão do nosso food truck! Perna de barata é bonus.",
-          "price": "R$9,99"
-        },
-        {
-          "name": "Carne de Mamute Albino | gourmet",
-          "info": "A melhor carne da galaxia! Agora em SP extremamente temperada com alcafrão do Himalaia e pelo de gato do artico siberiano!",
-          "price": "R$64,99"
-        },
-        {
-          "name": "Hot-Dog da Tia Juana",
-          "info": "Hot-Dog COMPLETO com 4 salsichas e purê de batata da Tia Juana. O melhor de SP!",
-          "price": "R$14,99"
-        },
-        {
-          "name": "Churrasquinho de Gato",
-          "info": "Espetinho de Carne de Churrasco. Será que é de boi mesmo, ou é de gato? ",
-          "price": "R$5,00"
-        },
-        {
-          "name": "Mamão com Wasabi | vegan",
-          "info": "Favorito do Kanazawa. Com Wasabi verdadeiro, direto do Japão.",
-          "price": "R$19,99"
-        }
-      ]
+  "food": [
+    {
+      "name": "Coxa de Frango de Avestruz Russo Albino",
+      "info": "Aproximadamente 5kg de Coxa de Frango bem temperada, para todos os seus amigos sentirem inveja do seu coxão!",
+      "price": "R$39.99",
+      "image": "./images/russianChicken.jpg",
+      "foodTag": "frangoRusso"
+    },
+    {
+      "name": "X-Tudo Mil Grau",
+      "info": "O melhor podrão de SP! Vem com tudo que achamos no chão do nosso food truck! Perna de barata é bonus.",
+      "price": "R$9.99",
+      "image": "./images/xtudo.jpg",
+      "foodTag": "xtudoMilGrau"
+    },
+    {
+      "name": "Carne de Mamute Albino",
+      "info": "A melhor carne da galaxia! Agora em SP extremamente temperada com açafrão do Himalaia e pelo de gato preto do ártico siberiano!",
+      "price": "R$64.99",
+      "image": "./images/mamute.jpg",
+      "foodTag": "mamuteAlbino"
+    },
+    {
+      "name": "Hot-Dog da Tia Juana",
+      "info": "Hot-Dog COMPLETO com 4 salsichas e purê de batata da Tia Juana. O melhor de SP!",
+      "price": "R$14.99",
+      "image": "./images/cachorroquente1.jpg",
+      "foodTag": "hotDogJuana"
+    },
+    {
+      "name": "Churrasquinho de gato",
+      "info": "Espetinho de Carne de Churrasco. Será que é de boi mesmo, ou é de gato? ",
+      "price": "R$5.00",
+      "image": "./images/gatoEspeto.jpg",
+      "foodTag": "espetoGato"
+    },
+    {
+      "name": "Mamão com Wasabi (vegano)",
+      "info": "Favorito do Kanazawa. Com Wasabi verdadeiro, direto do Japão.",
+      "price": "R$19.99",
+      "image": "./images/mamaoWasabi.jpg",
+      "foodTag": "wasabiKanazawa"
     }
-  }
+  ]
+}

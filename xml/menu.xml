@@ -1,11 +1,4 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<!-- <menu>
-	<opcao id="1"> Home </opcao>
-	<opcao id="2"> Produtos </opcao>
-	<opcao id="3"> Contato </opcao>
-	<opcao id="4"> Localização </opcao>
-	<opcao id="5"> Notícias </opcao>
-</menu> -->
 <menu>
     <link id="index.html">Produtos</link>
     <link id="carrinho.html">Carrinho</link>
