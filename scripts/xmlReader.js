@@ -13,7 +13,7 @@ function menuFunction() {
     menu.innerHTML +=
       '<a href="' +
       xml[i].getAttribute("id") +
-      '">' +
+      '">' + '<span class="' + xml[i].getAttribute("class") + '">' + '</span>' + 
       xml[i].firstChild.nodeValue +
       "</a>";
   }
