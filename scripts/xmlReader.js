@@ -5,17 +5,17 @@ window.onload = function () {
 var xmlDoc;
 function menuFunction() {
   loadXML();
-  opc = xmlDoc.getElementsByTagName("link");
+  xml = xmlDoc.getElementsByTagName("link");
 
   const menu = document.getElementById("menu");
 
-  for (i = 0; i < opc.length; i++) {
+  for (i = 0; i < xml.length; i++) {
     menu.innerHTML +=
       '<a href="' +
-      opc[i].getAttribute("id") +
+      xml[i].getAttribute("id") +
       '">' +
-      opc[i].firstChild.nodeValue +
-      "</a> <br>";
+      xml[i].firstChild.nodeValue +
+      "</a>";
   }
 }
 

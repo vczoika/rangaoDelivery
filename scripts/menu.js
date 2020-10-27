@@ -1,15 +1,17 @@
 $(function () {
-  exibirCompras();
+  foodMenu();
 });
 
-function exibirCompras() {
+function foodMenu() {
   $.getJSON("./json/foodMenu.json", function (data) {
-    x = data.food.length;
-    for (var i = 0; i < x; i++) {
+    for (let i = 0; i < data.food.length; i++) {
       $("#foods").append(
         '<div class="' +
           data.food[i].foodTag +
-          '">' + '<img src="' + data.food[i].image + '">' +
+          '">' +
+          '<img src="' +
+          data.food[i].image +
+          '">' +
           "<h1>" +
           data.food[i].name +
           "</h1>" +
@@ -18,9 +20,16 @@ function exibirCompras() {
           "</p>" +
           "<p>" +
           data.food[i].price +
-          "</p>" +
+          "</p>" + '<a class="foodButton" href="#">' + 
+          '<button  type="button" ' +
+          data.food[i].button +
+          '>' + 
+          "</button>"
+          + "</a>" + 
           "</div>"
       );
     }
   });
 }
+
+

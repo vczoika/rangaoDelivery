@@ -4,13 +4,19 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <!-- Fonts Embeds -->
-    <link href="https://fonts.googleapis.com/css2?family=Nunito:wght@300;400;600;700;800;900&display=swap" rel="stylesheet">
+    <link
+      href="https://fonts.googleapis.com/css2?family=Nunito:wght@300;400;600;700;800;900&display=swap"
+      rel="stylesheet"
+    />
 
     <!-- CSS Reset - Remove standard padding/margin -->
     <link rel="stylesheet" href="./css/reset.css" />
 
     <!-- CSS Principal ./ -->
     <link rel="stylesheet" href="./css/main.css" />
+
+    <!-- CSS Buttons -->
+    <link rel="stylesheet" href="./css/button.css">
 
     <!-- Icone Favicon -->
     <link
@@ -21,7 +27,7 @@
 
     <!-- jQuery - google -->
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
-   
+
     <!-- xml reader script / ONLY READ!!! -->
     <script src="./scripts/xmlReader.js"></script>
 
@@ -31,19 +37,21 @@
     <title>Rangão Delivery | UNICSUL</title>
   </head>
   <body>
-    <div class="container">
-      <nav class="sidebar">
-        <div id="menu">
-          <h1>Menu</h1>
-        </div>
-      </nav>
-      <main id="foods">
+    <nav class="topbar">
+      <div id="menu">
+        <h1><img src="./images/restaurant-outline.svg" alt="Imagem Garfo e Faca">Rangão Delivery</h1>
+      </div>
+    </nav>
 
-      </main>
+    <div class="container">
+      <main id="foods"></main>
     </div>
     <footer>
       <h3>Desenvolvido pelo programador:</h3>
       <p>Vinicius Sales (23785837)</p>
     </footer>
+
+    <!-- Buttons JS -->
+    <script src="./scripts/buttons.js"></script>
   </body>
 </html>
