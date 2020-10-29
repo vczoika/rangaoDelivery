@@ -80,7 +80,7 @@ main {
 }
 
 main > div img {
-  height: 230px;
+  height: 190px;
   max-width: 245px;
   border-radius: 8px;
 }
@@ -93,3 +93,4 @@ footer {
   text-align: center;
   color: #f8f9fa;
 }
+

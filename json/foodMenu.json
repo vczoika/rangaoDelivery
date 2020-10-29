@@ -7,7 +7,8 @@
       "value": 39.99,
       "image": "./images/russianChicken.jpg",
       "foodTag": "frangoRusso",
-      "button": ""
+      "button": "",
+      "arrayID": "0"
     },
     {
       "name": "X-Tudo Mil Grau",
@@ -16,7 +17,8 @@
       "value": 9.99,
       "image": "./images/xtudo.jpg",
       "foodTag": "xtudoMilGrau",
-      "button": ""
+      "button": "",
+      "arrayID": "1"
     },
     {
       "name": "Carne de Mamute Albino",
@@ -25,7 +27,8 @@
       "value": 64.99,
       "image": "./images/mamute.jpg",
       "foodTag": "mamuteAlbino",
-      "button": ""
+      "button": "",
+      "arrayID": "2"
     },
     {
       "name": "Hot-Dog da Tia Juana",
@@ -34,7 +37,8 @@
       "value": 14.99,
       "image": "./images/cachorroquente1.jpg",
       "foodTag": "hotDogJuana",
-      "button": ""
+      "button": "",
+      "arrayID": "3"
     },
     {
       "name": "Caprese Salad",
@@ -43,7 +47,8 @@
       "value": 25.00,
       "image": "./images/jojoscaprese2.png",
       "foodTag": "tonioSalad",
-      "button": ""
+      "button": "",
+      "arrayID": "4"
     },
     {
       "name": "Churrasquinho de gato",
@@ -52,7 +57,8 @@
       "value": 5.00,
       "image": "./images/gatoEspeto.jpg",
       "foodTag": "espetoGato",
-      "button": "disabled"
+      "button": "disabled",
+      "arrayID": "5"
     },
     {
       "name": "Mamão com Wasabi (vegano)",
@@ -61,7 +67,8 @@
       "value": 19.99,
       "image": "./images/mamaoWasabi.jpg",
       "foodTag": "wasabiKanazawa",
-      "button": ""
+      "button": "",
+      "arrayID": "6"
     },
     {
       "name": "Coca-cola lata",
@@ -70,7 +77,8 @@
       "value": 4.99,
       "image": "https://cdn.garciasupermercados.com.br/media/catalog/product/cache/1/image/9df78eab33525d08d6e5fb8d27136e95/r/e/refrigerante_coca_cola_350ml.png",
       "foodTag": "refrigerante",
-      "button": ""
+      "button": "",
+      "arrayID": "7"
     },
     {
       "name": "Guaraná Jesus lata",
@@ -79,7 +87,8 @@
       "value": 3.99,
       "image": "https://a-static.mlcdn.com.br/1500x1500/refrigerante-guarana-jesus-350ml/postoincospel/7f69c6bcaf1611ea9fda4201ac18501e/942a2cc235170ea4bdee6647a9064c1f.jpg",
       "foodTag": "refrigerante",
-      "button": "disabled"
+      "button": "disabled",
+      "arrayID": "8"
     },
     {
       "name": "Guaraná Antarctica lata",
@@ -88,7 +97,8 @@
       "value": 2.99,
       "image": "https://savegnago.vteximg.com.br/arquivos/ids/288962-1000-1000/REFRIGERANTE-ANTARCTICA-350ML-LATA-GUARA.jpg?v=636639069900630000",
       "foodTag": "refrigerante",
-      "button": ""
+      "button": "",
+      "arrayID": "9"
     }
   ]
 }

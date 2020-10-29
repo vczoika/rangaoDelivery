@@ -12,3 +12,8 @@ button:disabled::after {
     color: red;
     content: 'Esgotado';
 }
+
+button:active { 
+    color: green;
+    transition-duration: 1s;
+}
