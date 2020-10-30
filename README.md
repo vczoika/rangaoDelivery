@@ -11,3 +11,4 @@
 - [x] Funcionamento correto do carregamento dos produtos **0,5 ponto**  
 - [x] Funcionamento (quase) correto das funções para adicionar produtos no carrinho e limpar o carrinho **~0,5 ponto**   
 - [x] Estética do site (utilização de CSS, imagens, bordas, cores etc.) **0,3 ponto.**  
+### Github page: https://vczoika.github.io/rangaoDelivery/  
